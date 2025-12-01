@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwpoint" content ="width=device-width, initial-scale=1.0">
+        <title> My Academic portfolio</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <script defer src="portfolio.js"></script>
+    </head>
+    <body>
+        <header class="fadeInOutSlow">
+        <p> Emmanuel Muriuki Portfolio </p>
+        <h1> Welcome to my Academic Portfolio </h1>
+        <p> This portfolio shows my acadamic achievements, projects and skills </p> 
+        </header>
+        <section>
+        <img src="profile.png">
+        </section>
+    <section class="slideUp">
+        <a href="#contact"> Contact </a>
+        <a href="#about"> About </a>
+        <a href="#practicals"> Practicals </a>
+        <a href="#exams"> Exams </a>
+        <a href="#Projects"> Projects</a>
+    </section>
+    <section id="about" class="about"> 
+        <h2 class="mzingaAbout"> About me </h2>
+        <p>Hello! I’m Emmanuel Muruiki, a passionate and skilled Automotive Engineering student currently pursuing Level 6 training at Kiambu National Polytechnic. My admission number is AET6/0301/25, and I proudly represent Class 2505/B—a cohort committed to technical excellence and innovation in mobility 🚗⚙️.
+
+My portfolio is a showcase of my journey through rigorous academic and practical training. It includes:
+
+📚 Exam results that reflect a strong grasp of automotive systems, diagnostics, and mechanical theory.
+
+🧰 Practical assessments where I’ve demonstrated hands-on expertise in vehicle maintenance, repair, and optimization.
+
+🚘 Projects that tackle real-world challenges—from improving fuel efficiency to exploring electric vehicle technologies.
+
+I approach every task with precision, curiosity, and a commitment to quality. Whether it’s engine diagnostics, suspension systems, or emerging vehicle tech, I’m always ready to learn, adapt, and deliver.
+
+💼 Looking for a reliable intern, junior technician, or creative collaborator? I’m open to opportunities that allow me to contribute meaningfully while growing professionally. You can reach me through the contact details provided in this portfolio.
+
+Let’s build the future of transportation—one innovation at a time 🔩🚀.</p>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-banner">📬  Connect With Me Anytime!</div>
+
+  <div class="contact-container">
+    <h2 class="glow">Contact Information</h2>
+
+    <div class="contact-item">
+      <i class="glow">📧</i>
+      <span>Email: <strong class="text"><a href="mailto:emmanuelmuroki1@gmail.com?subject=Academic%20portfolio&body=Hello%20Emmanuel%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20chat!"target="_blank"></a></strong></span>
+    </div>
+
+    <div class="contact-item">
+      <i class="glow">📱</i>
+      <span>Phone: <strong class="text">0113484685</strong></span>
+    </div>
+
+    <div class="contact-item">
+      <i class="glow">📞</i>
+      <span>Optional Line: <strong class="text">0787654321</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Add a little sparkle effect on hover
+    const items = document.querySelectorAll('.contact-item');
+    items.forEach(item => {
+      item.addEventListener('mouseover', () => {
+        item.style.transform = 'scale(1.05)';
+        item.style.transition = 'transform 0.3s ease';
+      });
+      item.addEventListener('mouseout', () => {
+        item.style.transform = 'scale(1)';
+      });
+    });
+  </script>
+ <a href="https://wa.me/254113484685?text=Hello%20Emmanuel%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20chat!" target="_blank" 
+   class="whatsappButton">
+  Chat with me on WhatsApp
+</a>
+  </section>
+  </body>
+</html>
