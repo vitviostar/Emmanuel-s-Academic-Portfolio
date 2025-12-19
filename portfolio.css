@@ -113,14 +113,18 @@ section a{
       text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
     }
     .text {
-        color:black;
-        animation: floatSideWays 3s ease-in-out infinite;
-    }
-    @keyframes floatSideWays {
-        0% {transform: translateX(0);}
-        50% {transform: translateX(-10px);}
-        100% {transform: translateX(0);}
-    }
+    color: black;
+    font-size: 24px;
+    animation: floatSideWays 2s ease-in-out infinite;
+}
+
+@keyframes floatSideWays {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-30px); }
+    50%  { transform: translateX(0); }
+    75%  { transform: translateX(30px); }
+    100% { transform: translateX(0); }
+}
    .whatsappButton {
   background-color: BLACK;
   color: white;
@@ -170,4 +174,5 @@ section a{
   100% { opacity: 0 }
 
 }
+
 
