@@ -117,8 +117,9 @@ section a{
         animation: floatSideWays 3s ease-in-out infinite;
     }
     @keyframes floatSideWays {
-        0% 100% {transform: translateX(0)};
-        50% {transform: translateX(-10px)};
+        0% {transform: translateX(0);}
+        50% {transform: translateX(-10px);}
+        100% {transform: translateX(0);}
     }
    .whatsappButton {
   background-color: BLACK;
@@ -169,3 +170,4 @@ section a{
   100% { opacity: 0 }
 
 }
+
